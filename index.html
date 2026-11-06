@@ -17,6 +17,7 @@
 <main>
   <section class="escenario" aria-label="El anillo se arma, la gema se engasta y el diamante destella">
     <div class="escena__fijo">
+      <div id="progreso" class="progreso" aria-hidden="true"><span></span></div>
       <canvas id="secuencia" class="escena__lienzo" role="img" aria-label="El anillo se arma, la gema se engasta y el diamante destella"></canvas>
       <canvas id="visor" class="escena__lienzo escena__visor" aria-label="Producto en 3D: arrastra para girarlo"></canvas>
 
@@ -26,16 +27,16 @@
       </div>
       <p class="capitulo" data-desde="20" data-hasta="58"><span class="titular">Base, aro<br>y garras.</span></p>
       <p class="capitulo" data-desde="68" data-hasta="108"><span class="titular">La gema encuentra<br>su lugar.</span></p>
-      <p class="capitulo" data-desde="124" data-hasta="152"><span class="titular titular--acento">Brilla.</span></p>
+      <p class="capitulo" data-desde="116" data-hasta="154"><span class="titular titular--acento">Brilla.</span></p>
 
       <p class="escena__indicador" data-desde="1" data-hasta="10">Desliza <span aria-hidden="true">↓</span></p>
       <p id="visor-pista" class="escena__pista">Arrastra para girarlo</p>
+      <a id="saltar" class="escena__saltar es-visible" href="#informacion" data-desde="1" data-hasta="149">Ver información <span aria-hidden="true">↓</span></a>
     </div>
     <div id="escena" class="tramo tramo--secuencia"></div>
-    <div id="visor-tramo" class="tramo tramo--visor"></div>
   </section>
 
-  <section class="bloque bloque--prueba"><a class="calificacion" href="https://www.google.com/maps/search/?api=1&amp;query=Joyer%C3%ADa%20Yamesi%20Medell%C3%ADn&amp;query_place_id=ChIJJfUVsuopRI4RQI47ajal9QQ" target="_blank" rel="noopener"><span class="calificacion__nota">4.6</span><span class="calificacion__texto">en Google · 11 reseñas</span></a>
+  <section id="informacion" class="bloque bloque--prueba"><a class="calificacion" href="https://www.google.com/maps/search/?api=1&amp;query=Joyer%C3%ADa%20Yamesi%20Medell%C3%ADn&amp;query_place_id=ChIJJfUVsuopRI4RQI47ajal9QQ" target="_blank" rel="noopener"><span class="calificacion__nota">4.6</span><span class="calificacion__texto">en Google · 11 reseñas</span></a>
     <h2 class="bloque__titulo">Joyas para los momentos que quieres recordar.</h2>
     <p class="bloque__texto">Cada pieza guarda una historia por contar. Mírala de cerca y escríbenos para encontrar la tuya.</p></section>
 
